@@ -1,1 +1,1 @@
-# AURA-Vibe-Coding-Hackathin
+# AURA-Vibe-Coding-Hackathon
