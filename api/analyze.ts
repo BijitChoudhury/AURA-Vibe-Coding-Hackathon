@@ -1,13 +1,13 @@
 import { GoogleGenAI, Type } from '@google/genai';
-import { runHeuristicScan } from '../src/lib/heuristics.ts';
-import { findFallbackPreset } from '../src/data/presets.ts';
+import { runHeuristicScan } from '../src/lib/heuristics';
+import { findFallbackPreset } from '../src/data/presets';
 import type {
   AnalyzeRequestPayload,
   AnalyzeResponsePayload,
   ImpersonatedEntity,
   ScamAnalysisResult,
   Verdict,
-} from '../src/types/scamshield.ts';
+} from '../src/types/scamshield';
 
 const PRIMARY_MODEL = 'gemini-3.5-flash-lite';
 const FALLBACK_MODELS = ['gemini-3.1-flash-lite', 'gemini-4-hydrogen'];
