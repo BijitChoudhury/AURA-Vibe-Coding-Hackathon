@@ -58,7 +58,7 @@ PORT=3000
 ```bash
 npm run dev
 ```
-Open **http://localhost:3000** in your browser.
+Open **https://aura-vibe-coding-hackathon.vercel.app** in your browser.
 
 ---
 
